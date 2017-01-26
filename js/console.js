@@ -24,8 +24,8 @@ $(function($, undefined) {
             term.echo('\n');
         },
         name: 'dos',
-        height: 350,
-        width: 640,
+        height: 700,
+        width: 1280,
         prompt: 'A>'
     });
 });

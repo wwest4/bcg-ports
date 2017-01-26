@@ -1,9 +1,16 @@
 <html>
     <head>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/0.11.23/css/jquery.terminal.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
     </head>
     <body>
-        <div id="console" class="terminal"></div>
+
+        <input type="checkbox" id="switch">
+        <label for="switch" class="switch-label">[power]</label>
+
+        <div class="container" style="margin: left;">
+            <div id="console" class="terminal screen"></div>
+        </div>
 
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/0.11.23/js/jquery.terminal.min.js"></script>
