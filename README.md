@@ -1,6 +1,8 @@
 # What is this?
 JS Ports of "BASIC Computer Games" (Ahl 1978). Kids my age transcribed and hacked on this stuff back in the 70s + 80s.
 
+See a demo at (http://stopsky.net/bcg-ports).
+
 # Build
 Use compass to recompile the sass & toss it all on a server.
 
